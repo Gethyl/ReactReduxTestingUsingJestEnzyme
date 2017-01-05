@@ -48,10 +48,7 @@ describe('>>>H O M E --- Shallow Render REACT COMPONENTS',()=>{
                 .toBe(true)
     });
      it('+++ contains output', () => {
-        
-        expect(wrapper.find('input').last()
-                .equals(<input type="text" placeholder="Output" readOnly ref="output" value={output}></input>))
-                .toBe(true)
+        expect(wrapper.find('input[placeholder="Output"]').prop('value')).toEqual(output)
     });
     it('+++ contains button with id="add"', () => {
         expect(wrapper.find('button#add').type()).toEqual('button')
