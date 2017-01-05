@@ -1,0 +1,41 @@
+exports[`>>>H O M E --- Snapshot +++capturing Snapshot of Home 1`] = `
+<div
+  className="container">
+  <h2>
+    using React and Redux
+  </h2>
+  <div>
+    Input 1:
+    <input
+      placeholder="Input 1"
+      type="text" />
+  </div>
+  <div>
+    Input 2 :
+    <input
+      placeholder="Input 2"
+      type="text" />
+  </div>
+  <div>
+    Output :
+    <input
+      placeholder="Output"
+      readOnly={true}
+      type="text"
+      value={10} />
+  </div>
+  <div>
+    <button
+      id="add"
+      onClick={[Function]}>
+      Add
+    </button>
+    <button
+      id="subtract"
+      onClick={[Function]}>
+      Subtract
+    </button>
+  </div>
+  <hr />
+</div>
+`;
