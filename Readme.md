@@ -2,7 +2,7 @@
 
 A small React-Redux calculator app which does just addition and subtraction.
 
-This app is created mainly to emphasis on TDD and unit testing.
+This app is created mainly to emphasize TDD and unit testing.
 
 ----------
 
